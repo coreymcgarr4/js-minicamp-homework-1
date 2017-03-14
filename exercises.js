@@ -164,7 +164,8 @@ function getTriangleArea(base, height) {
 function getCircleArea(radius) {
   //return the rounded area of the circle given the radius
   //code here
-  return Math.PI * radius * radius;
+var answer = Math.PI * Math.pow(radius, 2);
+  return Math.round(answer);
 }
 
 function getRectangularPrismVolume(length, width, height) {
